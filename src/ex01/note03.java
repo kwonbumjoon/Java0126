@@ -15,8 +15,8 @@ public class note03 {
 			System.out.print("선택: ");
 			
 			String strNum = s.nextLine();
-			
-			if(strNum.equals("1")) {
+			// switch 문을 사용할 수도 있음
+			if(strNum.equals("1")) {	// (strNum == 1) 인식을 못함
 				speed++;
 				System.out.println("\r현재 속도 = " + speed);
 			}
